@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+:root {
+    --bgcolour1: #97cee4;
+    --bgcolour2: #124cb4;
+    --colour1: #2596be;
+    --colour2: #6c96a6;
+    --colour3: rgb(48, 48, 48);
+    --family1: 'Dancing Script';
+    --family2: 'Raleway';
+    --family3: 'Aboreto';
+}
+
+h1 {
+    font-family: var(--family1);
+    font-size: 3rem;
+    color: var(--colour1);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: var(--family2);
+    color: var(--colour2);
+    font-weight: 600;
+}
+
+p {
+    font-family: var(--family2);
+    font-weight: 600;
+    color: var(--colour3);
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    font-size: 2rem;
+    font-family: var(--family3);
+    color: var(--bgcolour2);
+}
+
+.intro span {
+    text-decoration: underline;
+}
+
+.intro_container {
+    background: var(--bgcolour1);
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+.clouds {
+    height: 5.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+hr {
+    border-style: dotted;
+    border-top: none;
+    border-width: 2rem;
+    width: 8rem;
+    color: var(--bgcolour1);
+    margin: 3rem auto 3rem auto;
+}
+
+#mypic {
+    height: 18rem;
+    margin: 0 auto 3rem auto;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+
+.skills_text {
+    width: 50%;
+}
+
+.skills img {
+    height: 6rem;
+}
+
+.footer {
+    font-family: 'Raleway', sans-serif;
+    margin: 3rem auto 0 auto;
+    background-color: #366fd5;
+    color: aqua;
+    font-weight: bold;
+    padding: 0
+}
+
+.footer_images img {
+    height: 4rem;
+    margin: 1rem;
+}
+
+
+
+#cloud1 {
+    bottom: 100%;
+    right: 9%;
+}
+
+#cloud2 {
+    right: 16%;
+}
+
+#cloud3 {
+    bottom: 79%;
+    right: -8%;
+}
+
+#cloud4 {
+    bottom: 72%;
+    right: -19%;
+}
